@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:function_name} = function($2)
+{
+	$0
+};
+]]></content>
+    <tabTrigger>fun</tabTrigger>
+    <scope>source.gamemonkey</scope>
+    <description>Function</description>
+</snippet>
