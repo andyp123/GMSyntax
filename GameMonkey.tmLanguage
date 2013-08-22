@@ -21,114 +21,6 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>support.constant.gamemonkey</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>keyword.operator.gamemonkey</string>
-				</dict>
-			</dict>
-			<key>comment</key>
-			<string>match stuff like: Sound.prototype = { … } when extending an object</string>
-			<key>match</key>
-			<string>([a-zA-Z_?.$][\w?.$]*)\.(prototype)\s*(=)\s*</string>
-			<key>name</key>
-			<string>meta.class.gamemonkey</string>
-		</dict>
-		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>support.class.gamemonkey</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>support.constant.gamemonkey</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>entity.name.function.gamemonkey</string>
-				</dict>
-				<key>4</key>
-				<dict>
-					<key>name</key>
-					<string>keyword.operator.gamemonkey</string>
-				</dict>
-				<key>5</key>
-				<dict>
-					<key>name</key>
-					<string>storage.type.function.gamemonkey</string>
-				</dict>
-				<key>6</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.parameters.begin.gamemonkey</string>
-				</dict>
-				<key>7</key>
-				<dict>
-					<key>name</key>
-					<string>variable.parameter.function.gamemonkey</string>
-				</dict>
-				<key>8</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.parameters.end.gamemonkey</string>
-				</dict>
-			</dict>
-			<key>comment</key>
-			<string>match stuff like: Sound.prototype.play = function() { … }</string>
-			<key>match</key>
-			<string>([a-zA-Z_?.$][\w?.$]*)\.(prototype)\.([a-zA-Z_?.$][\w?.$]*)\s*(=)\s*(function)?\s*(\()(.*?)(\))</string>
-			<key>name</key>
-			<string>meta.function.prototype.gamemonkey</string>
-		</dict>
-		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>support.class.gamemonkey</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>support.constant.gamemonkey</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>entity.name.function.gamemonkey</string>
-				</dict>
-				<key>4</key>
-				<dict>
-					<key>name</key>
-					<string>keyword.operator.gamemonkey</string>
-				</dict>
-			</dict>
-			<key>comment</key>
-			<string>match stuff like: Sound.prototype.play = myfunc</string>
-			<key>match</key>
-			<string>([a-zA-Z_?.$][\w?.$]*)\.(prototype)\.([a-zA-Z_?.$][\w?.$]*)\s*(=)\s*</string>
-			<key>name</key>
-			<string>meta.function.gamemonkey</string>
-		</dict>
-		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>support.class.gamemonkey</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
 					<string>entity.name.function.gamemonkey</string>
 				</dict>
 				<key>3</key>
@@ -247,125 +139,27 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.gamemonkey</string>
+					<string>punctuation.whitespace.function-call.leading.gamemonkey</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.function.gamemonkey</string>
+					<string>support.function.any-method.gamemonkey</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.parameters.begin.gamemonkey</string>
-				</dict>
-				<key>4</key>
-				<dict>
-					<key>name</key>
-					<string>variable.parameter.function.gamemonkey</string>
-				</dict>
-				<key>5</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.parameters.end.gamemonkey</string>
-				</dict>
-			</dict>
-			<key>comment</key>
-			<string>match stuff like: foobar: function() { … }</string>
-			<key>match</key>
-			<string>\b([a-zA-Z_?.$][\w?.$]*)\s*:\s*\b(function)?\s*(\()(.*?)(\))</string>
-			<key>name</key>
-			<string>meta.function.json.gamemonkey</string>
-		</dict>
-		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>string.quoted.single.gamemonkey</string>
-				</dict>
-				<key>10</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.parameters.begin.gamemonkey</string>
-				</dict>
-				<key>11</key>
-				<dict>
-					<key>name</key>
-					<string>variable.parameter.function.gamemonkey</string>
-				</dict>
-				<key>12</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.parameters.end.gamemonkey</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.begin.gamemonkey</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>entity.name.function.gamemonkey</string>
-				</dict>
-				<key>4</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.end.gamemonkey</string>
-				</dict>
-				<key>5</key>
-				<dict>
-					<key>name</key>
-					<string>string.quoted.double.gamemonkey</string>
-				</dict>
-				<key>6</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.begin.gamemonkey</string>
-				</dict>
-				<key>7</key>
-				<dict>
-					<key>name</key>
-					<string>entity.name.function.gamemonkey</string>
-				</dict>
-				<key>8</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.end.gamemonkey</string>
-				</dict>
-				<key>9</key>
-				<dict>
-					<key>name</key>
-					<string>entity.name.function.gamemonkey</string>
-				</dict>
-			</dict>
-			<key>comment</key>
-			<string>Attempt to match "foo": function</string>
-			<key>match</key>
-			<string>(?:((')([^']*)('))|((")([^"]*)(")))\s*:\s*\b(function)?\s*(\()([^)]*)(\))</string>
-			<key>name</key>
-			<string>meta.function.json.gamemonkey</string>
-		</dict>
-		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>keyword.operator.new.gamemonkey</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>entity.name.type.instance.gamemonkey</string>
+					<string>punctuation.definition.parameters.gamemonkey</string>
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(new)\s+(\w+(?:\.\w*)?)</string>
+			<string>(?x) (?: (?= \s )  (?:(?&lt;=else|return) | (?&lt;!\w)) (\s+))?
+			(\b
+				(?!(while|for|foreach|dowhile|if|else|return)\s*\()(?:(?!NS)[A-Za-z_][A-Za-z0-9_]*+\b | :: )++                  # actual name
+			)
+			 \s*(\()</string>
 			<key>name</key>
-			<string>meta.class.instance.constructor</string>
+			<string>meta.function-call.gamemonkey</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -499,12 +293,6 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(and|in)\b</string>
-			<key>name</key>
-			<string>keyword.operator.gamemonkey</string>
-		</dict>
-		<dict>
-			<key>match</key>
 			<string>\btrue\b</string>
 			<key>name</key>
 			<string>constant.language.boolean.true.gamemonkey</string>
@@ -525,7 +313,7 @@
 			<key>match</key>
 			<string>\bthis\b</string>
 			<key>name</key>
-			<string>variable.language.gamemonkey</string>
+			<string>variable.language.this.gamemonkey</string>
 		</dict>
 		<dict>
 			<key>match</key>
