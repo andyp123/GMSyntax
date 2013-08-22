@@ -12,4 +12,4 @@ Currently there is only one snippet, but I hope to expand this over time to buil
 
 The text in bold is the tab trigger. Typing this and pressing the `tab` key will activate the snippet.
 
-_fun_ction : function definition. (name, argument(s), body)
+* **fun**ction : function definition. ( *name*, *argument(s)*, *body* )
