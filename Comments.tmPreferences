@@ -5,7 +5,7 @@
     <key>name</key>
     <string>Comments</string>
     <key>scope</key>
-    <string>source.gm</string>
+    <string>source.gamemonkey</string>
     <key>settings</key>
     <dict>
         <key>shellVariables</key>
@@ -16,7 +16,17 @@
                 <key>value</key>
                 <string>// </string>
             </dict>
+            <dict>
+                <key>name</key>
+                    <string>TM_COMMENT_START_2</string>
+                <key>value</key>
+                <string>/*</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>TM_COMMENT_END_2</string>
+                <key>value</key>
+                <string>*/</string>
+            </dict>
         </array>
     </dict>
-</dict>
-</plist>
